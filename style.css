@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h2 {
+    margin-bottom: 48px;
+    font-size: 56px;
+    color: #29292b;
+    letter-spacing: 0.1em;
+}
+h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+
+}
+section {
+    padding: 112px 0;
+}
+section .wrap {
+    justify-content: center;
+}
+.summary .caption {
+    margin-bottom: 36px;
+    font-size: 16px;
+    color: #72685e;
+    line-height: 1.8;
+}
+.menu .menu-title {
+    margin-bottom: 26px;
+    font-size:20px;
+    letter-spacing: 0.1em;
+}
+.menu table th {
+    width: 200px;
+    text-align: left;
+    padding-top: 26px;
+    vertical-align: bottom;
+}
+.menu table tr: :first-of-type th {
+    padding-top: 0;
+}
+.menu table th .mini {
+    font-size: 0.7em;
+}
+.menu table td {
+    width: 125px;
+    text-align: right;
+    border-bottom: 2px solid #fff;
+    vertical-align: bottom;
+}
+
+header nav ul {
+        display: flex;
+       font-size: 28px;
+    color: white;
+}
+header nav ul li {
+    margin-right: 40px;
+}
+header navul li:last-of-type{
+    margin-right: 0;
+}
+.wrap {
+    display: flex;
+    }
+.wrap h1 {
+    color:#fff;
+}
+header .inner {
+    position: relative;
+}
+header .wrap{
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+}
+.hero .catch-copy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #fff;
+}
+/*COFFEE*/
+.coffee {
+   
+    background-color: #eeedeb;
+}
+.coffee h2 {
+    padding-left: 30px;
+    border-left: 4px solid #9b3929;
+    font-weight: 400;
+}
+.coffee .summary{
+    margin-right: 100px;
+}
+
+/*FOOD*/
+.food h2 {
+    padding-right: 30px;
+    border-right: 4px solid #9b3929;
+    text-align: right;
+}
+.food .wrap {
+    flex-direction: row-reverse;
+}
+.food .summary{
+    margin-left: 100px;
+}
+ .food .menu table td {
+    border-bottom: 2px solid #eeeded;
+ }
+
+ /*ACCESS*/
+ .access {
+    background-color: #d7d2c9;
+ }
+ .access h2 {
+    text-align: center;
+ }
+ .access h2 span {
+    padding: 0 30px;
+    border-left: 4px solid #9b3929;
+    border-right: 4px solid #9b3929;
+ }
+ .access address {
+    margin-right: 100px;
+    color: #fff;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2em;
+ }
+
+ /*footer*/
+ footer {
+    padding: 16px 0;
+    background-color: #29292b;
+    color: #fff;
+    text-align: center;
+
+ }
